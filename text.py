@@ -1,7 +1,10 @@
+import matplotlib.pyplot as plt
 import cv2
 import numpy as np
 
 cam=cv2.VideoCapture(0)
+
+
 
 while True:
     camera,ret=cam.read()
